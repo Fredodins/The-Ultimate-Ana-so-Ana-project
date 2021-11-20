@@ -18,39 +18,76 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
     crossorigin="anonymous"
     />
+
     <title>Ana só Ana</title>
   </head>
 
   <body>
     <!--Navbar-->
+    <!--TODO: fix navbar collapsed menu-->
     <section>
+      <nav class="navbar navbar-expand-sm bg-light navbar-light py-3 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="https://drive.google.com/uc?export=view&id=1QrGRhJZfILiJfXFEEnWltHQrKTg3d7ib" alt="" width="30" height="30" class="d-inline-block align-text-top">
+            Ana só Ana
+          </a>
+
+          <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Flashes & Arts</a>
+              </li>
+              <li class="nav-item">
+                <a href="https://forms.gle/HGtSBvAXPEW1y9oQ7" class="nav-link">Form</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </section>
+
     <!--Flash Cards-->
     <section>
-    <div class="row">
-      <h1 class="FlashHeader">Flash</h1>
-      <div class="col">
-        <img
-          class="AnaProfileImage"
-          src="https://drive.google.com/uc?export=view&id=1-QQx0fQ7QznfYHGrUbgBgqkBdTsjplzJ"
-        />
+      <div class="row">
+        <h1 class="FlashHeader">Flash</h1>
+        <div class="col">
+          <img
+            class="AnaProfileImage"
+            src="https://drive.google.com/uc?export=view&id=1-QQx0fQ7QznfYHGrUbgBgqkBdTsjplzJ"
+          />
+        </div>
+        <div class="col">
+          <img
+            class="AnaProfileImage"
+            src="https://drive.google.com/uc?export=view&id=10PZcgJ6XtOF3iS2YBybVInuzlKH0OM0m"
+          />
+        </div>
+        <div class="col">
+          <img
+            class="AnaProfileImage"
+            src="https://drive.google.com/uc?export=view&id=108taZQvAlse4QP5icu_JD6mqqJfoc0kW"
+          />
+        </div>
       </div>
-      <div class="col">
-        <img
-          class="AnaProfileImage"
-          src="https://drive.google.com/uc?export=view&id=10PZcgJ6XtOF3iS2YBybVInuzlKH0OM0m"
-        />
-      </div>
-      <div class="col">
-        <img
-          class="AnaProfileImage"
-          src="https://drive.google.com/uc?export=view&id=108taZQvAlse4QP5icu_JD6mqqJfoc0kW"
-        />
-      </div>
-    </div>
+    </section>
 
-
-
-  </section>
   </body>
 </html>
